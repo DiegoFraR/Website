@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #D4145A, #FBB03B);
+  overflow: hidden;
+}
+
+.Heading ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.Heading li {
+  float: right;
+}
+
+.Heading li a {
+  display: block;
+  color: white;
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.Heading li a:hover {
+  display: block;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px; 
+  transition: 1s;
+}
+
+.Heading li a.active {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text;
+  color: transparent;
+}
+.logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 34px;
+  color: white; 
+  padding: 0 5%;
+  width: 100%;
+  padding: 0 90%;
+}
+
+.logo h1:hover {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  transition: 1s;
+  width: 100%;
+  padding: 0 90%;
+}
+
+.HomeText h1 {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  font-size: 50px;
+}
+
+.HomeText p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.HomeText {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.LinkText {
+  padding: 10%;
+}
+
+.HomeText h3 {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  font-size: 40px;
+}
+
+.HomeText .button {
+  background: transparent;
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Links {
+  position: absolute;
+  bottom: 5%;
+  width: 170px;
+  color: #fff;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  text-decoration: none;
+  border: 2px solid #fff;
+  font-size: 20px;
+  color: #fff;
+}
+
+.CurrentCoursework {
+  align-items: center;
+  float: left;
+  padding: 5% 10%;
+  width: 500px;
+}
+
+.PreviousCoursework{
+  align-items: center;
+  float: right;
+  padding: 5% 10%;
+  width: 500px;;
+}
+
+.dropbtn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid;
+  border-color: #fff;
+  padding: 16px;
+  width: 500px;
+  font-size: 16px;
+}
+
+.CurrentCourseButton {
+  position: relative;
+  display: inline-block;
+}
+
+.PreviousCourseButton {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: transparent;
+  border: 2px solid;
+  border-color: #fff;
+  min-width: auto;
+  z-index: 1;
+  text-decoration: none;
+  width: 500px;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid;
+  border-color: #fff;
+}
+
+.CurrentCourseButton:hover .dropdown-content {
+  display: block;
+}
+
+.PreviousCourseButton:hover .dropdown-content {
+  display: block;
+}
+
+.CurrentCourseWork h1 {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  font-size: 60px;
+}
+
+.CurrentCourseWork p {
+  color: #fff;
+  word-spacing:0.1cm;
+  font-size: 18px;
+}
+
+.PreviousCourseWork p {
+  color: #fff;
+  word-spacing:0.1cm;
+  font-size: 18px;
+}
+
+.PreviousCourseWork h1 {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  font-size: 60px;
+}
+
+.AboutText h1{
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  font-size: 60px;
+  padding: 0 60%;
+  width: 371px;
+}
+
+.AboutText p {
+  color: #fff;
+  word-spacing:0.1cm;
+  font-size: 18px;
+  padding: 0 60%;
+  width: 371px;
+}
+
+img {
+  float: left;
+  border: 10px solid;
+  border-radius: 5%;
+  border-color: #fff;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.ContactForm h1 {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  background-clip: text; 
+  color: transparent;
+  font-size: 60px;
+  text-align: center;
+}
+
+.ContactForm {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.ContactForm form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0;
+}
+
+input, textarea, label {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+
+input, textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+}
+
+.ContactForm button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 0;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 1s ease;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+input, textarea {
+  color: #fff;
+  font-size: 18px; 
+  padding: 10px;
+  width: 70%;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #fff;
+
+}
